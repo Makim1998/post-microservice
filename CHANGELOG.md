@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.0.2 (2022-09-19)
+### Fix
+* **ci:** Downgraded semantic-release version ([`dc029c5`](https://github.com/dusan-madzarevic/post-microservice/commit/dc029c5754ccbade89a56b0d80d5fc5ea25efaec))
+
 ## v0.0.1 (2022-09-19)
 ### Fix
 * **ci:** Another version fix attempt ([`daffdd9`](https://github.com/dusan-madzarevic/post-microservice/commit/daffdd95add515a885abc0b667e236fb7d650706))
