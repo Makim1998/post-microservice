@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "dislinkt_post_ducom98"
-version = "0.0.0"
+version = "0.0.1"
 authors = [
   { name="Dusan Madzarevic", email="ducom98@gmail.com" },
   { name="Marko Mijatovic", email="example@gmail.com" },
