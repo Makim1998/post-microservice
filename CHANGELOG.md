@@ -4,6 +4,10 @@
 
 ## v0.0.1 (2022-09-19)
 ### Fix
+* **ci:** Another version fix attempt ([`daffdd9`](https://github.com/dusan-madzarevic/post-microservice/commit/daffdd95add515a885abc0b667e236fb7d650706))
+
+## v0.0.1 (2022-09-19)
+### Fix
 * **ci:** Reset version ([`b2ea579`](https://github.com/dusan-madzarevic/post-microservice/commit/b2ea5799ce6bb550c3dbfeb48282f71c2a7423ff))
 
 ## v0.0.1 (2022-09-19)
