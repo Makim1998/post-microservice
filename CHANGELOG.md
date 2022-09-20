@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.3.2 (2022-09-20)
+### Fix
+* Removed .idea ([`aea04b4`](https://github.com/dusan-madzarevic/post-microservice/commit/aea04b455ab027c938a9f28ba79101969c59be6c))
+
 ## v0.3.1 (2022-09-20)
 ### Fix
 * **git:** Updated gitignore for pycharm files ([`b15c2a0`](https://github.com/dusan-madzarevic/post-microservice/commit/b15c2a0ba6ac674691a90496bb3326cac9543596))
