@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.3.0 (2022-09-20)
+### Feature
+* **ci:** Added pip cache step ([`5de2946`](https://github.com/dusan-madzarevic/post-microservice/commit/5de2946505c3161562061f854fae2d438770224a))
+
 ## v0.2.0 (2022-09-20)
 ### Feature
 * Posts view ([`cb70c35`](https://github.com/dusan-madzarevic/post-microservice/commit/cb70c350eccbef6fc5b5a1025350abbbce32fa09))
