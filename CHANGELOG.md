@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.3 (2022-09-20)
+### Fix
+* **ci:** Added packaging dependency ([`f9bc59d`](https://github.com/dusan-madzarevic/post-microservice/commit/f9bc59da636967cb34cfbb26e62bf5f47726dea4))
+
 ## v0.1.2 (2022-09-20)
 ### Fix
 * **ci:** Changed to curl ([`2575896`](https://github.com/dusan-madzarevic/post-microservice/commit/25758969a693e8698300f79d48ca92b7c4dfc09b))
