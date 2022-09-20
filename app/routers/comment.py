@@ -11,6 +11,6 @@ async def get_comments_for_post(post_id):
     return get_comments(post_id)
 
 
-@router.post("/commenst", response_model=CommentCreateDTO, tags=["comment"])
+@router.post("/comments", response_model=CommentCreateDTO, tags=["comment"])
 async def add(comment: CommentCreateDTO):
     return add_comment(comment)
