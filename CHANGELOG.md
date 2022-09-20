@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.12 (2022-09-20)
+### Fix
+* **ci:** Attempt packaging fix ([`ad823c0`](https://github.com/dusan-madzarevic/post-microservice/commit/ad823c0283ce276bcf884ef64176028a0b9e82e2))
+
 ## v0.1.11 (2022-09-20)
 ### Fix
 * **ci:** Added setuptools dependency install ([`109c5d1`](https://github.com/dusan-madzarevic/post-microservice/commit/109c5d1050ba3f0e54738083cc4193a7153dab8b))
