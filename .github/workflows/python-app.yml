@@ -47,7 +47,7 @@ jobs:
         
     - name: Python Semantic Release
       if: github.event_name != 'pull_request'
-      uses: relekang/python-semantic-release@v7.29.5
+      uses: chanind/python-semantic-release@7-28-1-packaging-fix
       with:
         github_token: ${{ secrets.GIT_TOKEN }}
         repository_username: __token__
