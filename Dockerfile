@@ -4,7 +4,7 @@ WORKDIR /fastapi-app
 
 COPY requirements.txt .
 
-RUN pip install -r requirements.txt
+ADD https://github.com/dusan-madzarevic/post-microservice/releases/latest/download/dislinkt-post-1.0.tar.gz
 
 COPY ./app ./app
 
