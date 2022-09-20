@@ -4,8 +4,7 @@ WORKDIR /fastapi-app
 
 COPY requirements.txt .
 
-
-RUN curl https://github.com/dusan-madzarevic/post-microservice/releases/latest/download/dislinkt-post-1.0.tar.gz \
+RUN wget https://github.com/dusan-madzarevic/post-microservice/releases/latest/download/dislinkt-post-1.0.tar.gz \
   | tar -xz
 
 COPY ./app ./app
