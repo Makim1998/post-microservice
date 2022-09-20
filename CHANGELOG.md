@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.7 (2022-09-20)
+### Fix
+* **ci:** Fixed tar command ([`015843e`](https://github.com/dusan-madzarevic/post-microservice/commit/015843e47d56756b1aac57eed4df936084643017))
+
 ## v0.1.6 (2022-09-20)
 ### Fix
 * **ci:** Swapped curl to wget ([`08269c3`](https://github.com/dusan-madzarevic/post-microservice/commit/08269c342139a67223fbce5a96caf3b606eadcf0))
