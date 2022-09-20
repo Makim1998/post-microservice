@@ -6,10 +6,9 @@ COPY requirements.txt .
 
 
 RUN curl https://github.com/dusan-madzarevic/post-microservice/releases/latest/download/dislinkt-post-1.0.tar.gz \
-  | tar -xjC /tmp/dislinkt-post-1.0 \
-  && make -C /tmp/dislinkt-post-1.0
+  | tar -xz
 
-COPY ./tmp/dislinkt-post-1.0/app ./app
+COPY ./app ./app
 
 ENV PYTHONPATH "${PYTHONPATH}:/app"
 
