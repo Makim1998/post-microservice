@@ -2,11 +2,11 @@ FROM python:3.7
 
 WORKDIR /fastapi-app
 
-#ARG var1
-#ARG var2
+ARG var1
+ARG var2
 
-#ENV env1=${var1}
-#ENV env2=${var2}
+ENV env1=${var1}
+ENV env2=${var2}
 
 #RUN echo ${env1}
 #Run echo ${env2}
@@ -21,8 +21,8 @@ COPY ./app ./app
 
 ENV PYTHONPATH "${PYTHONPATH}:/app"
 
-#CMD $env1 $env2
-CMD ["python", "./app/main.py"]
+CMD $env1 $env2
+#CMD ["python", "./app/main.py"]
 #CMD ["pytest", "./app/integration_test.py"]
 
 #ako se koristi CMD na liniji 22, onda:

@@ -39,9 +39,15 @@ jobs:
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
-    - name: Test with pytest
+    - name: Unit Test with pytest
       run: |
         pytest
+        
+    - name: Build Integration Tests
+      run: docker build -t post_test --build-arg var1=pytest --build-arg var2=./app/integration_test.py .
+        
+    - name: Run Integration Tests
+      run: docker run post_test
         
     - name: Python Semantic Release
       if: github.event_name != 'pull_request'
