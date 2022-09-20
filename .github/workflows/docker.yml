@@ -53,10 +53,13 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           # relative path to the place where source code with Dockerfile is located
-          context: ./front-dislinkt
+          context: ./
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
           push: ${{ github.event_name != 'pull_request' }}
+          build-agrs: | 
+             var1=python
+             var2=./app/main.py
 
       - name: Image digest
         if: github.event_name != 'pull_request'
