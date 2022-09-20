@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.1 (2022-09-20)
+### Fix
+* **ci:** Fixed ADD arguments ([`078bede`](https://github.com/dusan-madzarevic/post-microservice/commit/078bede037be3b2fc49f907d337687b508bb48ab))
+
 ## v0.1.0 (2022-09-20)
 ### Feature
 * **ci:** Attempting docker image creation via existing build from latest release ([`d47863f`](https://github.com/dusan-madzarevic/post-microservice/commit/d47863f00b9d7c18241459d727e24172a073b9a1))
