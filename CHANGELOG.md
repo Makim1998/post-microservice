@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.3.1 (2022-09-20)
+### Fix
+* **git:** Updated gitignore for pycharm files ([`b15c2a0`](https://github.com/dusan-madzarevic/post-microservice/commit/b15c2a0ba6ac674691a90496bb3326cac9543596))
+
 ## v0.3.0 (2022-09-20)
 ### Feature
 * **ci:** Added pip cache step ([`5de2946`](https://github.com/dusan-madzarevic/post-microservice/commit/5de2946505c3161562061f854fae2d438770224a))
