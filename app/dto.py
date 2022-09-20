@@ -50,3 +50,14 @@ class ReactionDTO(BaseModel):
     user_id: int
     post_id: int
 
+
+class ProfileUser(BaseModel):
+    id: int
+    email: str
+    username: str
+    password: str
+    ime: str
+    prezime: str
+    telefon: str
+    datumRodjenja: str
+    pol: str

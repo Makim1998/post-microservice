@@ -18,6 +18,7 @@ class User(Base):
     reactions = relationship("Reaction", back_populates="author")  # bitno da proverimo da li je vec reagovao na neki post
 
 
+
 class Post(Base):
     __tablename__ = "posts"
     id = Column(Integer(), primary_key=True)
