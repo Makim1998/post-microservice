@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.3.4 (2022-09-20)
+### Fix
+* **ci:** Removed integration test step to trigger new build ([`f335fa3`](https://github.com/dusan-madzarevic/post-microservice/commit/f335fa318621608e9f126c6bb57568f3a69b269b))
+
 ## v0.3.3 (2022-09-20)
 ### Fix
 * All integration tests are passing; add comments in Dockerfile; ([`6d849a0`](https://github.com/dusan-madzarevic/post-microservice/commit/6d849a0836c2b6c5a98b2318653b0e019ba3b1bc))

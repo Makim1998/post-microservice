@@ -44,7 +44,7 @@ jobs:
         pytest
         
     - name: Build Integration Tests
-      run: docker build -t post_test --build-arg var1=pytest --build-arg var2=./app/integration_test.py .
+      run: docker build -t post_test --build-arg var1='python -m pytest' --build-arg var2=./app/integration_test.py .
         
     - name: Run Integration Tests
       run: docker run post_test
