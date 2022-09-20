@@ -13,7 +13,7 @@ from app.create_db import get_db
 
 router = APIRouter()
 
-following_profiles_url = "http://localhost:8001/profile/following/"
+following_profiles_url = "http://localhost:8001/profiles/following/"
 
 
 @router.post("/post", response_model=PostCreateDTO, tags=["post"])
