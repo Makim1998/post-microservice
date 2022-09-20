@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.6 (2022-09-20)
+### Fix
+* **ci:** Swapped curl to wget ([`08269c3`](https://github.com/dusan-madzarevic/post-microservice/commit/08269c342139a67223fbce5a96caf3b606eadcf0))
+
 ## v0.1.5 (2022-09-20)
 ### Fix
 * **ci:** Switched runner to windows ([`700818f`](https://github.com/dusan-madzarevic/post-microservice/commit/700818f516d7f248e58ca54551ca23cd204c3c3d))
