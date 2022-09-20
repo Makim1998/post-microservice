@@ -1,13 +1,16 @@
 from fastapi import FastAPI
 from starlette.middleware.cors import CORSMiddleware
-from app.create_db import Session, engine
+# from app.create_db import Session, engine
+from fastapi import Depends
+from sqlalchemy.orm import Session
+from app.create_db import get_db
 
 import uvicorn
 from app.routers import auth, comment, post, reaction, image, user
 from model import User
 from dto import ProfileUser
 
-local_session = Session(bind=engine)
+# local_session = Session(bind=engine)
 
 
 app = FastAPI()
@@ -31,17 +34,17 @@ async def root():
 
 
 @app.post("/register")
-async def save_user(request: ProfileUser):
+async def save_user(request: ProfileUser, database: Session = Depends(get_db)):
     user = User()
     user.id = request.id
     user.name = request.ime
     user.surname = request.prezime
-    user.private = false
+    user.private = False
     user.picture = ''
     user.role = "user"
 
-    local_session.add(user)
-    local_session.commit()
+    database.add(user)
+    database.commit()
 
 
 
