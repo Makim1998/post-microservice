@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.3.6 (2022-09-20)
+### Fix
+* Module import ([`fd8bca5`](https://github.com/dusan-madzarevic/post-microservice/commit/fd8bca51680c1c85b3dbc8dd9a783d2e385cbaee))
+
 ## v0.3.5 (2022-09-20)
 ### Fix
 * **ci:** Added requirements installation step ([`29b8410`](https://github.com/dusan-madzarevic/post-microservice/commit/29b8410ef0ab4ca07e9f46e42e975e091a61af03))
