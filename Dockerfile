@@ -18,6 +18,7 @@ RUN wget -c https://github.com/dusan-madzarevic/post-microservice/releases/lates
 #RUN pip install -r requirements.txt
 
 RUN pip install pytest
+RUN pip install sqlalchemy
 
 COPY ./app ./app
 
