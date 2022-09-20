@@ -7,7 +7,7 @@ from app.create_db import get_db
 
 import uvicorn
 from app.routers import auth, comment, post, reaction, image, user
-from model import User
+from app.model import User
 from dto import ProfileUser
 
 # local_session = Session(bind=engine)
