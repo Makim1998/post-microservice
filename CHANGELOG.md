@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.0 (2022-09-20)
+### Feature
+* Posts view ([`cb70c35`](https://github.com/dusan-madzarevic/post-microservice/commit/cb70c350eccbef6fc5b5a1025350abbbce32fa09))
+
 ## v0.1.18 (2022-09-20)
 ### Fix
 * **ci:** Modified semantic release version to chanid packaging fix ([`9cbb0fe`](https://github.com/dusan-madzarevic/post-microservice/commit/9cbb0fe0d4055057d78ec3f955e8efcde5604880))
