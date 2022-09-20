@@ -15,14 +15,11 @@ COPY requirements.txt .
 
 RUN wget -c https://github.com/dusan-madzarevic/post-microservice/releases/latest/download/dislinkt-post-1.0.tar.gz -O - | tar -xz
 
-#RUN pip install -r requirements.txt
-
-RUN pip install pytest
-RUN pip install sqlalchemy
-
 COPY ./app ./app
 
 ENV PYTHONPATH "${PYTHONPATH}:/app"
+
+RUN pip install -r requirements.txt
 
 CMD $env1 $env2
 #CMD ["python", "./app/main.py"]
