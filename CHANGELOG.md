@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.15 (2022-09-20)
+### Fix
+* **ci:** Removed pip3 ([`7cc48b9`](https://github.com/dusan-madzarevic/post-microservice/commit/7cc48b92bd386ba3abc1eaca491380733e7be481))
+
 ## v0.1.14 (2022-09-20)
 ### Fix
 * **ci:** Attempt to fix packaging error ([`3f37cd9`](https://github.com/dusan-madzarevic/post-microservice/commit/3f37cd9a7c996bb41f7a527bf63de1c69b0e05c0))
