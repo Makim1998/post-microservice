@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.5 (2022-09-20)
+### Fix
+* **ci:** Switched runner to windows ([`700818f`](https://github.com/dusan-madzarevic/post-microservice/commit/700818f516d7f248e58ca54551ca23cd204c3c3d))
+
 ## v0.1.4 (2022-09-20)
 ### Fix
 * **ci:** Modified curl command ([`c6c730e`](https://github.com/dusan-madzarevic/post-microservice/commit/c6c730e36fd50fb56edd7c9e40a75dc8a67f0a20))
