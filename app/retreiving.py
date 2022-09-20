@@ -15,3 +15,4 @@ def getPosts():
 #users = local_session.query(User).filter(User.username == "").first()
 
 # za update izmenis ga i komitujes sesiju
+# testiranje 
