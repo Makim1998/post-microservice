@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.14 (2022-09-20)
+### Fix
+* **ci:** Attempt to fix packaging error ([`3f37cd9`](https://github.com/dusan-madzarevic/post-microservice/commit/3f37cd9a7c996bb41f7a527bf63de1c69b0e05c0))
+
 ## v0.1.13 (2022-09-20)
 ### Fix
 * **ci:** Changed python version ([`57f95b3`](https://github.com/dusan-madzarevic/post-microservice/commit/57f95b346089dda42f69b41226c284a70e5ea697))
