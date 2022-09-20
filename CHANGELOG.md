@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.3.5 (2022-09-20)
+### Fix
+* **ci:** Added requirements installation step ([`29b8410`](https://github.com/dusan-madzarevic/post-microservice/commit/29b8410ef0ab4ca07e9f46e42e975e091a61af03))
+
 ## v0.3.4 (2022-09-20)
 ### Fix
 * **ci:** Removed integration test step to trigger new build ([`f335fa3`](https://github.com/dusan-madzarevic/post-microservice/commit/f335fa318621608e9f126c6bb57568f3a69b269b))
