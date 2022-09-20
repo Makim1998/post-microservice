@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.11 (2022-09-20)
+### Fix
+* **ci:** Added setuptools dependency install ([`109c5d1`](https://github.com/dusan-madzarevic/post-microservice/commit/109c5d1050ba3f0e54738083cc4193a7153dab8b))
+
 ## v0.1.10 (2022-09-20)
 ### Fix
 * **ci:** Tar bugfix ([`912bce6`](https://github.com/dusan-madzarevic/post-microservice/commit/912bce607685c1f4e3971286e50956a78ad179d1))
