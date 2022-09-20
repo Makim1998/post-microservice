@@ -23,11 +23,15 @@ ENV PYTHONPATH "${PYTHONPATH}:/app"
 
 #CMD $env1 $env2
 CMD ["python", "./app/main.py"]
+#CMD ["pytest", "./app/integration_test.py"]
 
+#ako se koristi CMD na liniji 22, onda:
 #docker build -t imeslike --build-arg var1=python --build-arg var2=./app/main.py .
-#docker run -p 8003:8003  imeslike 
+#docker run -t -i -p 8000:8000  imeslike 
 
 #ili
 
-#docker build -t post_test --build-arg var1=python --build-arg var2=./app/integration_test.py .
+#docker build -t post_test --build-arg var1=pytest --build-arg var2=./app/integration_test.py .
 #docker run post_test
+
+#!!ako ima vise CMD komandi, pokrece se poslednja
