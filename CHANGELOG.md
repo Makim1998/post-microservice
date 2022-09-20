@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.18 (2022-09-20)
+### Fix
+* **ci:** Modified semantic release version to chanid packaging fix ([`9cbb0fe`](https://github.com/dusan-madzarevic/post-microservice/commit/9cbb0fe0d4055057d78ec3f955e8efcde5604880))
+
 ## v0.1.17 (2022-09-20)
 ### Fix
 * **ci:** Attempt without python3 ([`fa79d0a`](https://github.com/dusan-madzarevic/post-microservice/commit/fa79d0a892b4f100143a518202fa7326ad1eca37))
