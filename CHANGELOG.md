@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.8 (2022-09-20)
+### Fix
+* **ci:** Added additional params to dockerfile ([`eac1a94`](https://github.com/dusan-madzarevic/post-microservice/commit/eac1a945b8dcd991d94ea48f3fdd92ac73427711))
+
 ## v0.1.7 (2022-09-20)
 ### Fix
 * **ci:** Fixed tar command ([`015843e`](https://github.com/dusan-madzarevic/post-microservice/commit/015843e47d56756b1aac57eed4df936084643017))
