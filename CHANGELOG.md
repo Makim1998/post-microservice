@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.2 (2022-09-20)
+### Fix
+* **ci:** Changed to curl ([`2575896`](https://github.com/dusan-madzarevic/post-microservice/commit/25758969a693e8698300f79d48ca92b7c4dfc09b))
+
 ## v0.1.1 (2022-09-20)
 ### Fix
 * **ci:** Fixed ADD arguments ([`078bede`](https://github.com/dusan-madzarevic/post-microservice/commit/078bede037be3b2fc49f907d337687b508bb48ab))
