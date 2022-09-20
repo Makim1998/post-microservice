@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.16 (2022-09-20)
+### Fix
+* **ci:** Attempt fix with sudo ([`ca9bee3`](https://github.com/dusan-madzarevic/post-microservice/commit/ca9bee3cfe809acabcff2e05b8dbd1c0b2f3b62e))
+
 ## v0.1.15 (2022-09-20)
 ### Fix
 * **ci:** Removed pip3 ([`7cc48b9`](https://github.com/dusan-madzarevic/post-microservice/commit/7cc48b92bd386ba3abc1eaca491380733e7be481))
