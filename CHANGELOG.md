@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.17 (2022-09-20)
+### Fix
+* **ci:** Attempt without python3 ([`fa79d0a`](https://github.com/dusan-madzarevic/post-microservice/commit/fa79d0a892b4f100143a518202fa7326ad1eca37))
+
 ## v0.1.16 (2022-09-20)
 ### Fix
 * **ci:** Attempt fix with sudo ([`ca9bee3`](https://github.com/dusan-madzarevic/post-microservice/commit/ca9bee3cfe809acabcff2e05b8dbd1c0b2f3b62e))
