@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.10 (2022-09-20)
+### Fix
+* **ci:** Tar bugfix ([`912bce6`](https://github.com/dusan-madzarevic/post-microservice/commit/912bce607685c1f4e3971286e50956a78ad179d1))
+
 ## v0.1.9 (2022-09-20)
 ### Fix
 * **ci:** Another wget/tar fix ([`095e403`](https://github.com/dusan-madzarevic/post-microservice/commit/095e403839d90ae28de372740504208800fc1e6c))
