@@ -18,7 +18,7 @@ following_profiles_url = "http://localhost:8001/profile/following/"
 
 @router.post("/post", response_model=PostCreateDTO, tags=["post"])
 async def new_post(post: PostCreateDTO, database: Session = Depends(get_db)):
-    return add_post(post)
+    return add_post(post, database)
 
 
 @router.get("/post", response_model=List[PostDTO], tags=["post"])
