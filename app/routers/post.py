@@ -29,7 +29,7 @@ async def public_posts():
 
 
 @router.get("/post/{user_id}", response_model=List[PostDTO], tags=["post"])
-async def user_posts(user_id, success: bool = Depends(validate_auth)):
+async def user_posts(user_id):
     return get_user_posts(user_id)
 
 
