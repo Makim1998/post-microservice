@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.3.3 (2022-09-20)
+### Fix
+* All integration tests are passing; add comments in Dockerfile; ([`6d849a0`](https://github.com/dusan-madzarevic/post-microservice/commit/6d849a0836c2b6c5a98b2318653b0e019ba3b1bc))
+
 ## v0.3.2 (2022-09-20)
 ### Fix
 * Removed .idea ([`aea04b4`](https://github.com/dusan-madzarevic/post-microservice/commit/aea04b455ab027c938a9f28ba79101969c59be6c))
